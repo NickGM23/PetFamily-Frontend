@@ -22,7 +22,7 @@ const darkTheme = createTheme({
 const Footer = () => {
   return (
     <ThemeProvider theme={darkTheme}>
-      <AppBar position="fixed" sx={{ top: "auto", bottom: 0, mb: 1, ml: 1 }}>
+      <AppBar position="fixed" sx={{ top: "auto", bottom: 0, ml: 1 }}>
         <Toolbar>
           <NavLink to="https://github.com/NickGM23" className="text-lg">
             <GitHubIcon sx={{ color: "#fdfafa", ml: 3 }} />

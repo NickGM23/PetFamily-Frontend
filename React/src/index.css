@@ -1,20 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .noactive_navlinks a {
-    color:blue;
-    text-decoration: none;
-  }
+  color: blue;
+  text-decoration: none;
+}
 
 .active_navlinks a {
-    color:white;
-    text-decoration: none;
-  }
+  color: white;
+  text-decoration: none;
+}
 
 .left_navlinks a:hover,
 .left_navlinks a:active,
 .left_navlinks a.active {
-   color: blue;
- }
+  color: blue;
+}
 
- :root {
-    --color-bg: #2C2C32;
-    --color-active: #e2e063;
-  }
+:root {
+  --color-bg: #2c2c32;
+  --color-active: #e2e063;
+}
